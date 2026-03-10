@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-10T13:37:02.033485+00:00",
+  "updated_utc": "2026-03-10T13:37:39.340376+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -12,14 +12,7 @@
           "total_mib": 24576,
           "util_percent": 98,
           "state": "mid",
-          "processes": [
-            {
-              "pid": "4187076",
-              "user": "nafeem",
-              "name": "/data/nafeem/env/bin/python",
-              "used_mib": 9898
-            }
-          ]
+          "processes": []
         },
         {
           "index": "1",
@@ -29,14 +22,7 @@
           "total_mib": 24576,
           "util_percent": 97,
           "state": "mid",
-          "processes": [
-            {
-              "pid": "4187077",
-              "user": "nafeem",
-              "name": "/data/nafeem/env/bin/python",
-              "used_mib": 9898
-            }
-          ]
+          "processes": []
         }
       ]
     },
