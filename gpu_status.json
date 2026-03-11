@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-11T18:39:19.924602+00:00",
+  "updated_utc": "2026-03-11T18:39:56.300390+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -10,7 +10,7 @@
           "name": "NVIDIA TITAN RTX",
           "used_mib": 7168,
           "total_mib": 24576,
-          "util_percent": 95,
+          "util_percent": 81,
           "state": "mid",
           "processes": [
             {
@@ -27,7 +27,7 @@
           "name": "NVIDIA TITAN RTX",
           "used_mib": 7168,
           "total_mib": 24576,
-          "util_percent": 93,
+          "util_percent": 96,
           "state": "mid",
           "processes": [
             {
@@ -190,7 +190,7 @@
           "state": "free",
           "processes": [
             {
-              "pid": "2608456",
+              "pid": "2609345",
               "user": "islamm11",
               "name": "/home/islamm11/anaconda3/envs/musetalk/bin/python3",
               "used_mib": 7490
