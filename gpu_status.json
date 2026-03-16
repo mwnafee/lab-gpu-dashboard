@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-16T18:27:42.850950+00:00",
+  "updated_utc": "2026-03-16T18:28:26.803403+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -129,7 +129,14 @@
           "total_mib": 81559,
           "util_percent": 97,
           "state": "busy",
-          "processes": []
+          "processes": [
+            {
+              "pid": "338355",
+              "user": "islamm11",
+              "name": "VLLM::Worker_TP0",
+              "used_mib": 69308
+            }
+          ]
         },
         {
           "index": "1",
@@ -139,7 +146,14 @@
           "total_mib": 81559,
           "util_percent": 97,
           "state": "busy",
-          "processes": []
+          "processes": [
+            {
+              "pid": "338356",
+              "user": "islamm11",
+              "name": "VLLM::Worker_TP1",
+              "used_mib": 69308
+            }
+          ]
         }
       ]
     },
