@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-16T17:38:30.348922+00:00",
+  "updated_utc": "2026-03-16T17:39:14.298778+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -127,9 +127,16 @@
           "name": "NVIDIA H100 PCIe",
           "used_mib": 69317,
           "total_mib": 81559,
-          "util_percent": 96,
+          "util_percent": 97,
           "state": "busy",
-          "processes": []
+          "processes": [
+            {
+              "pid": "338355",
+              "user": "islamm11",
+              "name": "VLLM::Worker_TP0",
+              "used_mib": 69308
+            }
+          ]
         },
         {
           "index": "1",
@@ -139,7 +146,14 @@
           "total_mib": 81559,
           "util_percent": 97,
           "state": "busy",
-          "processes": []
+          "processes": [
+            {
+              "pid": "338356",
+              "user": "islamm11",
+              "name": "VLLM::Worker_TP1",
+              "used_mib": 69308
+            }
+          ]
         }
       ]
     },
