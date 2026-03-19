@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-19T07:21:08.266848+00:00",
+  "updated_utc": "2026-03-19T07:21:50.133448+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -12,7 +12,14 @@
           "total_mib": 24576,
           "util_percent": 100,
           "state": "mid",
-          "processes": []
+          "processes": [
+            {
+              "pid": "2053923",
+              "user": "nafeem",
+              "name": "/data/nafeem/env/bin/python",
+              "used_mib": 2592
+            }
+          ]
         },
         {
           "index": "1",
