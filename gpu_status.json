@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-19T19:24:36.556276+00:00",
+  "updated_utc": "2026-03-19T19:25:19.852626+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -10,9 +10,16 @@
           "name": "NVIDIA TITAN RTX",
           "used_mib": 2596,
           "total_mib": 24576,
-          "util_percent": 100,
+          "util_percent": 99,
           "state": "mid",
-          "processes": []
+          "processes": [
+            {
+              "pid": "2172221",
+              "user": "nafeem",
+              "name": "/data/nafeem/env/bin/python",
+              "used_mib": 2592
+            }
+          ]
         },
         {
           "index": "1",
@@ -112,7 +119,7 @@
           "name": "NVIDIA H100 80GB HBM3",
           "used_mib": 72460,
           "total_mib": 81559,
-          "util_percent": 100,
+          "util_percent": 99,
           "state": "busy",
           "processes": [
             {
