@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-20T23:19:51.237693+00:00",
+  "updated_utc": "2026-03-20T23:20:33.514623+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -47,7 +47,14 @@
           "total_mib": 81559,
           "util_percent": 0,
           "state": "busy",
-          "processes": []
+          "processes": [
+            {
+              "pid": "2179273",
+              "user": "manikm",
+              "name": "VLLM::EngineCore",
+              "used_mib": 66568
+            }
+          ]
         },
         {
           "index": "2",
