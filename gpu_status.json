@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-26T14:48:23.526517+00:00",
+  "updated_utc": "2026-03-26T14:49:00.874798+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -10,7 +10,7 @@
           "name": "NVIDIA TITAN RTX",
           "used_mib": 9924,
           "total_mib": 24576,
-          "util_percent": 98,
+          "util_percent": 99,
           "state": "mid",
           "processes": [
             {
@@ -81,7 +81,7 @@
           "index": "2",
           "uuid": "GPU-9291d44c-11e1-33ed-b66a-82bb7f7483db",
           "name": "NVIDIA H100 80GB HBM3",
-          "used_mib": 76234,
+          "used_mib": 76236,
           "total_mib": 81559,
           "util_percent": 100,
           "state": "busy",
@@ -90,7 +90,7 @@
               "pid": "2378765",
               "user": "manikm",
               "name": "VLLM::Worker_TP0",
-              "used_mib": 76224
+              "used_mib": 76226
             }
           ]
         },
@@ -115,7 +115,7 @@
           "index": "4",
           "uuid": "GPU-f1222c01-2dcf-eaa5-7135-476ef280c166",
           "name": "NVIDIA H100 80GB HBM3",
-          "used_mib": 76234,
+          "used_mib": 76236,
           "total_mib": 81559,
           "util_percent": 100,
           "state": "busy",
@@ -124,7 +124,7 @@
               "pid": "2378767",
               "user": "manikm",
               "name": "VLLM::Worker_TP2",
-              "used_mib": 76224
+              "used_mib": 76226
             }
           ]
         },
