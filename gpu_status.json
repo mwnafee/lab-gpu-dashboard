@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-26T17:27:12.085381+00:00",
+  "updated_utc": "2026-03-26T17:27:48.200524+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -10,7 +10,7 @@
           "name": "NVIDIA TITAN RTX",
           "used_mib": 9924,
           "total_mib": 24576,
-          "util_percent": 99,
+          "util_percent": 100,
           "state": "mid",
           "processes": [
             {
@@ -27,7 +27,7 @@
           "name": "NVIDIA TITAN RTX",
           "used_mib": 9924,
           "total_mib": 24576,
-          "util_percent": 97,
+          "util_percent": 98,
           "state": "mid",
           "processes": [
             {
@@ -47,11 +47,18 @@
           "index": "0",
           "uuid": "GPU-4fe8d37d-e43a-e90a-62ab-b8b2d654a66b",
           "name": "NVIDIA H100 80GB HBM3",
-          "used_mib": 4,
+          "used_mib": 7960,
           "total_mib": 81559,
           "util_percent": 0,
           "state": "free",
-          "processes": []
+          "processes": [
+            {
+              "pid": "2558211",
+              "user": "manikm",
+              "name": "VLLM::EngineCore",
+              "used_mib": 7950
+            }
+          ]
         },
         {
           "index": "1",
@@ -139,16 +146,16 @@
           "index": "0",
           "uuid": "GPU-51f4c93c-f581-bc5d-b66f-4bb8a664c3e7",
           "name": "NVIDIA H100 PCIe",
-          "used_mib": 32963,
+          "used_mib": 69315,
           "total_mib": 81559,
           "util_percent": 0,
-          "state": "mid",
+          "state": "busy",
           "processes": [
             {
               "pid": "1263394",
               "user": "islamm11",
               "name": "VLLM::Worker_TP0",
-              "used_mib": 32954
+              "used_mib": 69306
             }
           ]
         },
@@ -156,16 +163,16 @@
           "index": "1",
           "uuid": "GPU-cbf8c219-f716-c2e7-0fa0-943605bdd357",
           "name": "NVIDIA H100 PCIe",
-          "used_mib": 32963,
+          "used_mib": 69315,
           "total_mib": 81559,
           "util_percent": 0,
-          "state": "mid",
+          "state": "busy",
           "processes": [
             {
               "pid": "1263395",
               "user": "islamm11",
               "name": "VLLM::Worker_TP1",
-              "used_mib": 32954
+              "used_mib": 69306
             }
           ]
         }
