@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-27T19:03:46.373376+00:00",
+  "updated_utc": "2026-03-27T19:04:32.491326+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -10,7 +10,7 @@
           "name": "NVIDIA TITAN RTX",
           "used_mib": 9924,
           "total_mib": 24576,
-          "util_percent": 98,
+          "util_percent": 97,
           "state": "mid",
           "processes": [
             {
@@ -156,7 +156,7 @@
           "processes": [
             {
               "pid": "2560046",
-              "user": "unknown",
+              "user": "manikm",
               "name": "VLLM::EngineCore",
               "used_mib": 74892
             }
