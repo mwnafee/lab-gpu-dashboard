@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-30T01:47:11.764996+00:00",
+  "updated_utc": "2026-03-30T01:47:49.436343+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -161,7 +161,7 @@
               "pid": "3050933",
               "user": "wangj68",
               "name": "python",
-              "used_mib": 61162
+              "used_mib": 69508
             },
             {
               "pid": "3226450",
@@ -182,7 +182,7 @@
           "name": "NVIDIA H100 PCIe",
           "used_mib": 80295,
           "total_mib": 81559,
-          "util_percent": 99,
+          "util_percent": 98,
           "state": "busy",
           "processes": [
             {
