@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-04-02T17:35:07.744443+00:00",
+  "updated_utc": "2026-04-02T17:35:44.028682+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -135,7 +135,7 @@
           "index": "6",
           "uuid": "GPU-652d5b3f-b16c-c486-1844-8a66b427c1a9",
           "name": "NVIDIA H100 80GB HBM3",
-          "used_mib": 59040,
+          "used_mib": 60681,
           "total_mib": 81559,
           "util_percent": 0,
           "state": "mid",
@@ -145,6 +145,12 @@
               "user": "liangy15",
               "name": "python",
               "used_mib": 59016
+            },
+            {
+              "pid": "302976",
+              "user": "liangy15",
+              "name": "python",
+              "used_mib": 1636
             }
           ]
         },
