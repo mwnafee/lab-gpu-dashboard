@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-04-04T18:14:08.583747+00:00",
+  "updated_utc": "2026-04-04T18:14:45.133925+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -154,14 +154,14 @@
           "name": "NVIDIA H100 80GB HBM3",
           "used_mib": 7274,
           "total_mib": 81559,
-          "util_percent": 34,
+          "util_percent": 32,
           "state": "free",
           "processes": [
             {
               "pid": "402588",
-              "user": "manikm",
+              "user": "unknown",
               "name": "python",
-              "used_mib": 7264
+              "used_mib": 7190
             }
           ]
         }
