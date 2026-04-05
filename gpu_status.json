@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-04-05T01:55:23.180182+00:00",
+  "updated_utc": "2026-04-05T01:56:01.770998+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -137,7 +137,7 @@
           "name": "NVIDIA H100 80GB HBM3",
           "used_mib": 59044,
           "total_mib": 81559,
-          "util_percent": 0,
+          "util_percent": 100,
           "state": "mid",
           "processes": [
             {
@@ -176,13 +176,13 @@
           "name": "NVIDIA H100 PCIe",
           "used_mib": 12325,
           "total_mib": 81559,
-          "util_percent": 24,
+          "util_percent": 0,
           "state": "mid",
           "processes": [
             {
               "pid": "1077014",
               "user": "islamm11",
-              "name": "/home/islamm11/anaconda3/envs/llm_model/bin/python3.10",
+              "name": "[No data]",
               "used_mib": 12316
             }
           ]
@@ -193,13 +193,13 @@
           "name": "NVIDIA H100 PCIe",
           "used_mib": 13985,
           "total_mib": 81559,
-          "util_percent": 28,
+          "util_percent": 0,
           "state": "mid",
           "processes": [
             {
               "pid": "1077014",
-              "user": "islamm11",
-              "name": "/home/islamm11/anaconda3/envs/llm_model/bin/python3.10",
+              "user": "unknown",
+              "name": "[No data]",
               "used_mib": 13976
             }
           ]
