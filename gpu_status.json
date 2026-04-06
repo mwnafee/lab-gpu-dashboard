@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-04-06T19:20:39.366805+00:00",
+  "updated_utc": "2026-04-06T19:21:16.093666+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -130,7 +130,7 @@
           "name": "NVIDIA H100 80GB HBM3",
           "used_mib": 59044,
           "total_mib": 81559,
-          "util_percent": 63,
+          "util_percent": 100,
           "state": "mid",
           "processes": [
             {
@@ -145,16 +145,16 @@
           "index": "7",
           "uuid": "GPU-c3e858c3-04bb-b607-4d99-98502d0bfef5",
           "name": "NVIDIA H100 80GB HBM3",
-          "used_mib": 16126,
+          "used_mib": 34,
           "total_mib": 81559,
-          "util_percent": 49,
-          "state": "mid",
+          "util_percent": 0,
+          "state": "free",
           "processes": [
             {
-              "pid": "860576",
+              "pid": "922883",
               "user": "manikm",
               "name": "python",
-              "used_mib": 16116
+              "used_mib": 15778
             }
           ]
         }
@@ -167,21 +167,35 @@
           "index": "0",
           "uuid": "GPU-51f4c93c-f581-bc5d-b66f-4bb8a664c3e7",
           "name": "NVIDIA H100 PCIe",
-          "used_mib": 0,
+          "used_mib": 7929,
           "total_mib": 81559,
-          "util_percent": 0,
+          "util_percent": 23,
           "state": "free",
-          "processes": []
+          "processes": [
+            {
+              "pid": "1871937",
+              "user": "islamm11",
+              "name": "python",
+              "used_mib": 7920
+            }
+          ]
         },
         {
           "index": "1",
           "uuid": "GPU-cbf8c219-f716-c2e7-0fa0-943605bdd357",
           "name": "NVIDIA H100 PCIe",
-          "used_mib": 0,
+          "used_mib": 9595,
           "total_mib": 81559,
-          "util_percent": 0,
-          "state": "free",
-          "processes": []
+          "util_percent": 31,
+          "state": "mid",
+          "processes": [
+            {
+              "pid": "1871937",
+              "user": "islamm11",
+              "name": "python",
+              "used_mib": 9586
+            }
+          ]
         }
       ]
     },
