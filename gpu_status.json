@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-04-06T19:16:58.168783+00:00",
+  "updated_utc": "2026-04-06T19:17:35.457749+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -167,21 +167,35 @@
           "index": "0",
           "uuid": "GPU-51f4c93c-f581-bc5d-b66f-4bb8a664c3e7",
           "name": "NVIDIA H100 PCIe",
-          "used_mib": 0,
+          "used_mib": 7285,
           "total_mib": 81559,
-          "util_percent": 0,
+          "util_percent": 47,
           "state": "free",
-          "processes": []
+          "processes": [
+            {
+              "pid": "1870582",
+              "user": "islamm11",
+              "name": "python",
+              "used_mib": 7276
+            }
+          ]
         },
         {
           "index": "1",
           "uuid": "GPU-cbf8c219-f716-c2e7-0fa0-943605bdd357",
           "name": "NVIDIA H100 PCIe",
-          "used_mib": 0,
+          "used_mib": 8949,
           "total_mib": 81559,
           "util_percent": 0,
-          "state": "free",
-          "processes": []
+          "state": "mid",
+          "processes": [
+            {
+              "pid": "1870582",
+              "user": "islamm11",
+              "name": "python",
+              "used_mib": 8940
+            }
+          ]
         }
       ]
     },
