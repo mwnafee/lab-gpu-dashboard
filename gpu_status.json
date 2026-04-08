@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-04-08T20:13:07.553455+00:00",
+  "updated_utc": "2026-04-08T20:13:46.604656+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -8,16 +8,16 @@
           "index": "0",
           "uuid": "GPU-5edd8cf7-a71e-4a7f-77be-8a5673dbb2f0",
           "name": "NVIDIA TITAN RTX",
-          "used_mib": 10822,
+          "used_mib": 10824,
           "total_mib": 24576,
-          "util_percent": 86,
+          "util_percent": 90,
           "state": "mid",
           "processes": [
             {
               "pid": "239414",
               "user": "manikm",
               "name": "/data/manikm/manik/ollama/bin/ollama",
-              "used_mib": 10818
+              "used_mib": 10820
             }
           ]
         },
@@ -142,16 +142,16 @@
           "index": "6",
           "uuid": "GPU-652d5b3f-b16c-c486-1844-8a66b427c1a9",
           "name": "NVIDIA H100 80GB HBM3",
-          "used_mib": 28966,
+          "used_mib": 28986,
           "total_mib": 81559,
-          "util_percent": 84,
+          "util_percent": 85,
           "state": "mid",
           "processes": [
             {
               "pid": "1202053",
               "user": "manikm",
               "name": "python",
-              "used_mib": 28956
+              "used_mib": 28976
             }
           ]
         },
