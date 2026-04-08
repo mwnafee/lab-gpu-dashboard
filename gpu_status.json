@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-04-08T04:36:06.020614+00:00",
+  "updated_utc": "2026-04-08T04:36:44.858012+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -10,7 +10,7 @@
           "name": "NVIDIA TITAN RTX",
           "used_mib": 10824,
           "total_mib": 24576,
-          "util_percent": 88,
+          "util_percent": 89,
           "state": "mid",
           "processes": [
             {
@@ -200,7 +200,7 @@
           "name": "NVIDIA H100 PCIe",
           "used_mib": 15337,
           "total_mib": 81559,
-          "util_percent": 57,
+          "util_percent": 56,
           "state": "mid",
           "processes": [
             {
