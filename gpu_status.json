@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-04-08T04:22:33.018874+00:00",
+  "updated_utc": "2026-04-08T04:23:11.909949+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -8,16 +8,16 @@
           "index": "0",
           "uuid": "GPU-5edd8cf7-a71e-4a7f-77be-8a5673dbb2f0",
           "name": "NVIDIA TITAN RTX",
-          "used_mib": 10824,
+          "used_mib": 10822,
           "total_mib": 24576,
-          "util_percent": 0,
+          "util_percent": 86,
           "state": "mid",
           "processes": [
             {
-              "pid": "86671",
+              "pid": "90395",
               "user": "manikm",
               "name": "/data/manikm/manik/ollama/bin/ollama",
-              "used_mib": 10820
+              "used_mib": 10818
             }
           ]
         },
@@ -31,7 +31,7 @@
           "state": "free",
           "processes": [
             {
-              "pid": "86671",
+              "pid": "90395",
               "user": "manikm",
               "name": "/data/manikm/manik/ollama/bin/ollama",
               "used_mib": 162
@@ -183,7 +183,7 @@
           "name": "NVIDIA H100 PCIe",
           "used_mib": 13725,
           "total_mib": 81559,
-          "util_percent": 42,
+          "util_percent": 45,
           "state": "mid",
           "processes": [
             {
@@ -200,7 +200,7 @@
           "name": "NVIDIA H100 PCIe",
           "used_mib": 15337,
           "total_mib": 81559,
-          "util_percent": 57,
+          "util_percent": 50,
           "state": "mid",
           "processes": [
             {
