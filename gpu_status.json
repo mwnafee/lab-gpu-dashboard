@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-04-08T02:37:16.487951+00:00",
+  "updated_utc": "2026-04-08T02:37:53.467642+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -50,7 +50,7 @@
           "index": "1",
           "uuid": "GPU-8a4650f4-6932-3e75-006b-f71194335d7e",
           "name": "NVIDIA H100 80GB HBM3",
-          "used_mib": 50454,
+          "used_mib": 50456,
           "total_mib": 81559,
           "util_percent": 59,
           "state": "mid",
@@ -59,7 +59,7 @@
               "pid": "3603600",
               "user": "manikm",
               "name": "python",
-              "used_mib": 50444
+              "used_mib": 50446
             }
           ]
         },
@@ -137,7 +137,7 @@
           "name": "NVIDIA H100 80GB HBM3",
           "used_mib": 59044,
           "total_mib": 81559,
-          "util_percent": 100,
+          "util_percent": 96,
           "state": "mid",
           "processes": [
             {
@@ -186,7 +186,7 @@
           "name": "NVIDIA H100 PCIe",
           "used_mib": 14809,
           "total_mib": 81559,
-          "util_percent": 52,
+          "util_percent": 58,
           "state": "mid",
           "processes": [
             {
