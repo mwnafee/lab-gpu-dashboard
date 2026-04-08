@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-04-08T18:44:42.231247+00:00",
+  "updated_utc": "2026-04-08T18:45:20.001892+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -10,7 +10,7 @@
           "name": "NVIDIA TITAN RTX",
           "used_mib": 10824,
           "total_mib": 24576,
-          "util_percent": 95,
+          "util_percent": 94,
           "state": "mid",
           "processes": [
             {
@@ -156,7 +156,7 @@
           "processes": [
             {
               "pid": "1166156",
-              "user": "manikm",
+              "user": "unknown",
               "name": "python",
               "used_mib": 16074
             }
