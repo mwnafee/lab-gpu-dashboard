@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-04-09T09:19:47.615203+00:00",
+  "updated_utc": "2026-04-09T09:20:58.254209+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -96,14 +96,7 @@
           "total_mib": 81559,
           "util_percent": 0,
           "state": "busy",
-          "processes": [
-            {
-              "pid": "260570",
-              "user": "manikm",
-              "name": "VLLM::EngineCore",
-              "used_mib": 74174
-            }
-          ]
+          "processes": []
         },
         {
           "index": "1",
@@ -111,16 +104,9 @@
           "name": "NVIDIA H100 80GB HBM3",
           "used_mib": 29226,
           "total_mib": 81559,
-          "util_percent": 81,
+          "util_percent": 83,
           "state": "mid",
-          "processes": [
-            {
-              "pid": "1892969",
-              "user": "manikm",
-              "name": "python",
-              "used_mib": 29216
-            }
-          ]
+          "processes": []
         },
         {
           "index": "2",
@@ -130,14 +116,7 @@
           "total_mib": 81559,
           "util_percent": 0,
           "state": "busy",
-          "processes": [
-            {
-              "pid": "261558",
-              "user": "manikm",
-              "name": "VLLM::Worker_TP0",
-              "used_mib": 78902
-            }
-          ]
+          "processes": []
         },
         {
           "index": "3",
@@ -147,14 +126,7 @@
           "total_mib": 81559,
           "util_percent": 0,
           "state": "busy",
-          "processes": [
-            {
-              "pid": "261559",
-              "user": "manikm",
-              "name": "VLLM::Worker_TP1",
-              "used_mib": 78902
-            }
-          ]
+          "processes": []
         },
         {
           "index": "4",
@@ -164,14 +136,7 @@
           "total_mib": 81559,
           "util_percent": 0,
           "state": "busy",
-          "processes": [
-            {
-              "pid": "261560",
-              "user": "manikm",
-              "name": "VLLM::Worker_TP2",
-              "used_mib": 78902
-            }
-          ]
+          "processes": []
         },
         {
           "index": "5",
@@ -181,14 +146,7 @@
           "total_mib": 81559,
           "util_percent": 0,
           "state": "busy",
-          "processes": [
-            {
-              "pid": "261561",
-              "user": "manikm",
-              "name": "VLLM::Worker_TP3",
-              "used_mib": 78902
-            }
-          ]
+          "processes": []
         },
         {
           "index": "6",
@@ -208,14 +166,7 @@
           "total_mib": 81559,
           "util_percent": 100,
           "state": "busy",
-          "processes": [
-            {
-              "pid": "1907567",
-              "user": "wangj68",
-              "name": "python",
-              "used_mib": 72518
-            }
-          ]
+          "processes": []
         }
       ]
     },
