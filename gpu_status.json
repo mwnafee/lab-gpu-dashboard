@@ -1,56 +1,9 @@
 {
-  "updated_utc": "2026-04-09T16:00:03.145338+00:00",
+  "updated_utc": "2026-04-09T16:01:16.376809+00:00",
   "servers": {
     "axis0": {
-      "status": "ok",
-      "gpus": [
-        {
-          "index": "0",
-          "uuid": "GPU-5edd8cf7-a71e-4a7f-77be-8a5673dbb2f0",
-          "name": "NVIDIA TITAN RTX",
-          "used_mib": 22314,
-          "total_mib": 24576,
-          "util_percent": 100,
-          "state": "busy",
-          "processes": [
-            {
-              "pid": "448538",
-              "user": "nafeem",
-              "name": "/data/nafeem/miniconda3/envs/pfgm_env/bin/python",
-              "used_mib": 11490
-            },
-            {
-              "pid": "1034044",
-              "user": "manikm",
-              "name": "/data/manikm/manik/ollama/bin/ollama",
-              "used_mib": 10820
-            }
-          ]
-        },
-        {
-          "index": "1",
-          "uuid": "GPU-442af73e-8628-b195-83b2-7506add343dc",
-          "name": "NVIDIA TITAN RTX",
-          "used_mib": 11656,
-          "total_mib": 24576,
-          "util_percent": 99,
-          "state": "mid",
-          "processes": [
-            {
-              "pid": "448541",
-              "user": "nafeem",
-              "name": "/data/nafeem/miniconda3/envs/pfgm_env/bin/python",
-              "used_mib": 11490
-            },
-            {
-              "pid": "1034044",
-              "user": "manikm",
-              "name": "/data/manikm/manik/ollama/bin/ollama",
-              "used_mib": 162
-            }
-          ]
-        }
-      ]
+      "status": "unreachable",
+      "gpus": []
     },
     "axis1": {
       "status": "ok",
@@ -218,7 +171,7 @@
           "name": "NVIDIA H100 80GB HBM3",
           "used_mib": 72532,
           "total_mib": 81559,
-          "util_percent": 100,
+          "util_percent": 99,
           "state": "busy",
           "processes": [
             {
@@ -240,7 +193,7 @@
           "name": "NVIDIA H100 PCIe",
           "used_mib": 13183,
           "total_mib": 81559,
-          "util_percent": 47,
+          "util_percent": 38,
           "state": "mid",
           "processes": [
             {
@@ -257,7 +210,7 @@
           "name": "NVIDIA H100 PCIe",
           "used_mib": 14809,
           "total_mib": 81559,
-          "util_percent": 59,
+          "util_percent": 49,
           "state": "mid",
           "processes": [
             {
