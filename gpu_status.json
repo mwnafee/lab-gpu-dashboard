@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-04-14T14:02:35.778978+00:00",
+  "updated_utc": "2026-04-14T14:03:53.459140+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -97,7 +97,7 @@
           "name": "NVIDIA H100 80GB HBM3",
           "used_mib": 50498,
           "total_mib": 81559,
-          "util_percent": 61,
+          "util_percent": 60,
           "state": "mid",
           "processes": [
             {
@@ -222,7 +222,14 @@
           "total_mib": 81559,
           "util_percent": 0,
           "state": "busy",
-          "processes": []
+          "processes": [
+            {
+              "pid": "412008",
+              "user": "islamm11",
+              "name": "VLLM::EngineCore",
+              "used_mib": 70808
+            }
+          ]
         },
         {
           "index": "1",
@@ -232,7 +239,14 @@
           "total_mib": 81559,
           "util_percent": 0,
           "state": "mid",
-          "processes": []
+          "processes": [
+            {
+              "pid": "411690",
+              "user": "islamm11",
+              "name": "python3",
+              "used_mib": 18018
+            }
+          ]
         }
       ]
     },
