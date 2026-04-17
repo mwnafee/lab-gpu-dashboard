@@ -1,37 +1,9 @@
 {
-  "updated_utc": "2026-04-17T04:48:50.784304+00:00",
+  "updated_utc": "2026-04-17T04:50:01.347633+00:00",
   "servers": {
     "axis0": {
-      "status": "ok",
-      "gpus": [
-        {
-          "index": "0",
-          "uuid": "GPU-5edd8cf7-a71e-4a7f-77be-8a5673dbb2f0",
-          "name": "NVIDIA TITAN RTX",
-          "used_mib": 6898,
-          "total_mib": 24576,
-          "util_percent": 56,
-          "state": "mid",
-          "processes": [
-            {
-              "pid": "2640498",
-              "user": "nafeem",
-              "name": "python",
-              "used_mib": 6894
-            }
-          ]
-        },
-        {
-          "index": "1",
-          "uuid": "GPU-442af73e-8628-b195-83b2-7506add343dc",
-          "name": "NVIDIA TITAN RTX",
-          "used_mib": 4,
-          "total_mib": 24576,
-          "util_percent": 0,
-          "state": "free",
-          "processes": []
-        }
-      ]
+      "status": "unreachable",
+      "gpus": []
     },
     "axis1": {
       "status": "ok",
@@ -104,7 +76,7 @@
           "name": "NVIDIA H100 80GB HBM3",
           "used_mib": 51722,
           "total_mib": 81559,
-          "util_percent": 61,
+          "util_percent": 62,
           "state": "mid",
           "processes": [
             {
