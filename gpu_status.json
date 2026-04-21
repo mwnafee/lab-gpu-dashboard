@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-04-21T03:07:15.744637+00:00",
+  "updated_utc": "2026-04-21T03:08:26.437198+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -104,7 +104,7 @@
           "name": "NVIDIA H100 80GB HBM3",
           "used_mib": 50210,
           "total_mib": 81559,
-          "util_percent": 59,
+          "util_percent": 58,
           "state": "mid",
           "processes": [
             {
