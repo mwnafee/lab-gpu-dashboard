@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-04-26T23:56:28.425715+00:00",
+  "updated_utc": "2026-04-26T23:57:40.298958+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -27,7 +27,7 @@
           "name": "NVIDIA TITAN RTX",
           "used_mib": 5442,
           "total_mib": 24576,
-          "util_percent": 21,
+          "util_percent": 40,
           "state": "mid",
           "processes": [
             {
@@ -49,7 +49,7 @@
           "name": "NVIDIA RTX A5000",
           "used_mib": 22229,
           "total_mib": 24564,
-          "util_percent": 96,
+          "util_percent": 95,
           "state": "busy",
           "processes": [
             {
