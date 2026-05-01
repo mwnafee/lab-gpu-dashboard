@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-05-01T12:44:20.368973+00:00",
+  "updated_utc": "2026-05-01T12:45:31.028308+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -95,14 +95,7 @@
           "total_mib": 81559,
           "util_percent": 100,
           "state": "busy",
-          "processes": [
-            {
-              "pid": "1249947",
-              "user": "manikm",
-              "name": "VLLM::EngineCore",
-              "used_mib": 74608
-            }
-          ]
+          "processes": []
         },
         {
           "index": "1",
@@ -122,14 +115,7 @@
           "total_mib": 81559,
           "util_percent": 0,
           "state": "busy",
-          "processes": [
-            {
-              "pid": "3933985",
-              "user": "manikm",
-              "name": "VLLM::Worker_TP0",
-              "used_mib": 77532
-            }
-          ]
+          "processes": []
         },
         {
           "index": "3",
@@ -139,14 +125,7 @@
           "total_mib": 81559,
           "util_percent": 0,
           "state": "busy",
-          "processes": [
-            {
-              "pid": "3933986",
-              "user": "manikm",
-              "name": "VLLM::Worker_TP1",
-              "used_mib": 77532
-            }
-          ]
+          "processes": []
         },
         {
           "index": "4",
@@ -156,14 +135,7 @@
           "total_mib": 81559,
           "util_percent": 0,
           "state": "busy",
-          "processes": [
-            {
-              "pid": "3933987",
-              "user": "manikm",
-              "name": "VLLM::Worker_TP2",
-              "used_mib": 77532
-            }
-          ]
+          "processes": []
         },
         {
           "index": "5",
@@ -183,14 +155,7 @@
           "total_mib": 81559,
           "util_percent": 0,
           "state": "busy",
-          "processes": [
-            {
-              "pid": "3933988",
-              "user": "manikm",
-              "name": "VLLM::Worker_TP3",
-              "used_mib": 77532
-            }
-          ]
+          "processes": []
         },
         {
           "index": "7",
@@ -200,14 +165,7 @@
           "total_mib": 81559,
           "util_percent": 0,
           "state": "busy",
-          "processes": [
-            {
-              "pid": "3936892",
-              "user": "manikm",
-              "name": "VLLM::EngineCore",
-              "used_mib": 74172
-            }
-          ]
+          "processes": []
         }
       ]
     },
