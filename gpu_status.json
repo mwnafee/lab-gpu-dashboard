@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-05-05T01:09:53.704639+00:00",
+  "updated_utc": "2026-05-05T01:11:03.204581+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -196,7 +196,7 @@
           "name": "NVIDIA H100 PCIe",
           "used_mib": 65119,
           "total_mib": 81559,
-          "util_percent": 84,
+          "util_percent": 77,
           "state": "mid",
           "processes": [
             {
