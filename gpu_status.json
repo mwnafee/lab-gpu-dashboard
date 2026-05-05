@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-05-05T14:11:18.688406+00:00",
+  "updated_utc": "2026-05-05T14:12:28.702928+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -12,14 +12,7 @@
           "total_mib": 24576,
           "util_percent": 0,
           "state": "mid",
-          "processes": [
-            {
-              "pid": "1453117",
-              "user": "/home/nafeem/.bashrc: line 1: /data/nafeem/cellseg_env/bin/activate: No such file or directory\nmanikm",
-              "name": "python3",
-              "used_mib": 6010
-            }
-          ]
+          "processes": []
         },
         {
           "index": "1",
@@ -97,7 +90,7 @@
           "name": "NVIDIA H100 80GB HBM3",
           "used_mib": 61268,
           "total_mib": 81559,
-          "util_percent": 46,
+          "util_percent": 47,
           "state": "mid",
           "processes": [
             {
@@ -179,7 +172,7 @@
           "name": "NVIDIA H100 PCIe",
           "used_mib": 70817,
           "total_mib": 81559,
-          "util_percent": 0,
+          "util_percent": 93,
           "state": "busy",
           "processes": [
             {
