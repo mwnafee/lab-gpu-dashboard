@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-05-06T14:30:26.806990+00:00",
+  "updated_utc": "2026-05-06T14:31:39.294643+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -42,16 +42,9 @@
           "name": "NVIDIA RTX A5000",
           "used_mib": 5239,
           "total_mib": 24564,
-          "util_percent": 24,
+          "util_percent": 22,
           "state": "mid",
-          "processes": [
-            {
-              "pid": "1012765",
-              "user": "nafeem",
-              "name": "python",
-              "used_mib": 5236
-            }
-          ]
+          "processes": []
         },
         {
           "index": "1",
@@ -59,16 +52,9 @@
           "name": "NVIDIA RTX A5000",
           "used_mib": 5239,
           "total_mib": 24564,
-          "util_percent": 21,
+          "util_percent": 25,
           "state": "mid",
-          "processes": [
-            {
-              "pid": "1064152",
-              "user": "nafeem",
-              "name": "python",
-              "used_mib": 5236
-            }
-          ]
+          "processes": []
         },
         {
           "index": "2",
