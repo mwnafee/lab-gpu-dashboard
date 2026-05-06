@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-05-06T16:40:23.140866+00:00",
+  "updated_utc": "2026-05-06T16:41:34.293384+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -59,7 +59,7 @@
           "name": "NVIDIA RTX A5000",
           "used_mib": 5239,
           "total_mib": 24564,
-          "util_percent": 30,
+          "util_percent": 27,
           "state": "mid",
           "processes": [
             {
