@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-05-06T15:29:28.424507+00:00",
+  "updated_utc": "2026-05-06T15:30:39.643762+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -59,7 +59,7 @@
           "name": "NVIDIA RTX A5000",
           "used_mib": 5239,
           "total_mib": 24564,
-          "util_percent": 23,
+          "util_percent": 0,
           "state": "mid",
           "processes": [
             {
@@ -203,7 +203,7 @@
           "name": "NVIDIA H100 PCIe",
           "used_mib": 76461,
           "total_mib": 81559,
-          "util_percent": 93,
+          "util_percent": 96,
           "state": "busy",
           "processes": [
             {
