@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-05-19T21:54:44.019339+00:00",
+  "updated_utc": "2026-05-19T21:55:55.838449+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -8,26 +8,33 @@
           "index": "0",
           "uuid": "GPU-5edd8cf7-a71e-4a7f-77be-8a5673dbb2f0",
           "name": "NVIDIA TITAN RTX",
-          "used_mib": 4,
+          "used_mib": 4002,
           "total_mib": 24576,
-          "util_percent": 0,
-          "state": "free",
-          "processes": []
+          "util_percent": 99,
+          "state": "mid",
+          "processes": [
+            {
+              "pid": "7169",
+              "user": "nafeem",
+              "name": "/data/nafeem/env/bin/python",
+              "used_mib": 3998
+            }
+          ]
         },
         {
           "index": "1",
           "uuid": "GPU-442af73e-8628-b195-83b2-7506add343dc",
           "name": "NVIDIA TITAN RTX",
-          "used_mib": 166,
+          "used_mib": 4002,
           "total_mib": 24576,
-          "util_percent": 1,
-          "state": "free",
+          "util_percent": 100,
+          "state": "mid",
           "processes": [
             {
               "pid": "7170",
               "user": "nafeem",
               "name": "/data/nafeem/env/bin/python",
-              "used_mib": 162
+              "used_mib": 3998
             }
           ]
         }
