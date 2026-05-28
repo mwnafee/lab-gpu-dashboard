@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-05-28T13:04:07.432563+00:00",
+  "updated_utc": "2026-05-28T13:05:15.780870+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -56,11 +56,11 @@
           "name": "NVIDIA H100 80GB HBM3",
           "used_mib": 74620,
           "total_mib": 81559,
-          "util_percent": 99,
+          "util_percent": 100,
           "state": "busy",
           "processes": [
             {
-              "pid": "4080641",
+              "pid": "4089683",
               "user": "manikm",
               "name": "VLLM::EngineCore",
               "used_mib": 74610
