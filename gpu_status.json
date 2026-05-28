@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-05-28T14:05:58.845318+00:00",
+  "updated_utc": "2026-05-28T14:07:14.415743+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -41,7 +41,14 @@
           "total_mib": 81559,
           "util_percent": 0,
           "state": "busy",
-          "processes": []
+          "processes": [
+            {
+              "pid": "3166004",
+              "user": "manikm",
+              "name": "VLLM::EngineCore",
+              "used_mib": 74174
+            }
+          ]
         },
         {
           "index": "1",
@@ -51,7 +58,14 @@
           "total_mib": 81559,
           "util_percent": 100,
           "state": "busy",
-          "processes": []
+          "processes": [
+            {
+              "pid": "4146404",
+              "user": "manikm",
+              "name": "VLLM::EngineCore",
+              "used_mib": 74610
+            }
+          ]
         },
         {
           "index": "2",
@@ -61,7 +75,14 @@
           "total_mib": 81559,
           "util_percent": 100,
           "state": "busy",
-          "processes": []
+          "processes": [
+            {
+              "pid": "3167829",
+              "user": "manikm",
+              "name": "VLLM::Worker_TP0",
+              "used_mib": 78100
+            }
+          ]
         },
         {
           "index": "3",
@@ -69,9 +90,16 @@
           "name": "NVIDIA H100 80GB HBM3",
           "used_mib": 78110,
           "total_mib": 81559,
-          "util_percent": 98,
+          "util_percent": 100,
           "state": "busy",
-          "processes": []
+          "processes": [
+            {
+              "pid": "3167830",
+              "user": "manikm",
+              "name": "VLLM::Worker_TP1",
+              "used_mib": 78098
+            }
+          ]
         },
         {
           "index": "4",
@@ -79,9 +107,16 @@
           "name": "NVIDIA H100 80GB HBM3",
           "used_mib": 78110,
           "total_mib": 81559,
-          "util_percent": 98,
+          "util_percent": 100,
           "state": "busy",
-          "processes": []
+          "processes": [
+            {
+              "pid": "3167831",
+              "user": "manikm",
+              "name": "VLLM::Worker_TP2",
+              "used_mib": 78098
+            }
+          ]
         },
         {
           "index": "5",
@@ -91,7 +126,14 @@
           "total_mib": 81559,
           "util_percent": 100,
           "state": "busy",
-          "processes": []
+          "processes": [
+            {
+              "pid": "3167832",
+              "user": "manikm",
+              "name": "VLLM::Worker_TP3",
+              "used_mib": 78098
+            }
+          ]
         },
         {
           "index": "6",
@@ -124,7 +166,7 @@
           "name": "NVIDIA H100 PCIe",
           "used_mib": 17263,
           "total_mib": 81559,
-          "util_percent": 56,
+          "util_percent": 55,
           "state": "mid",
           "processes": [
             {
