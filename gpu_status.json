@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-05-30T16:00:37.753542+00:00",
+  "updated_utc": "2026-05-30T16:01:45.045239+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -18,18 +18,11 @@
           "index": "1",
           "uuid": "GPU-442af73e-8628-b195-83b2-7506add343dc",
           "name": "NVIDIA TITAN RTX",
-          "used_mib": 6476,
+          "used_mib": 1,
           "total_mib": 24576,
-          "util_percent": 72,
-          "state": "mid",
-          "processes": [
-            {
-              "pid": "1734162",
-              "user": "nafeem",
-              "name": "/data/nafeem/miniconda3/envs/openus_run/bin/python",
-              "used_mib": 6472
-            }
-          ]
+          "util_percent": 0,
+          "state": "free",
+          "processes": []
         }
       ]
     },
@@ -164,7 +157,7 @@
           "index": "0",
           "uuid": "GPU-51f4c93c-f581-bc5d-b66f-4bb8a664c3e7",
           "name": "NVIDIA H100 PCIe",
-          "used_mib": 70832,
+          "used_mib": 70817,
           "total_mib": 81559,
           "util_percent": 0,
           "state": "busy",
@@ -181,7 +174,7 @@
           "index": "1",
           "uuid": "GPU-cbf8c219-f716-c2e7-0fa0-943605bdd357",
           "name": "NVIDIA H100 PCIe",
-          "used_mib": 1,
+          "used_mib": 0,
           "total_mib": 81559,
           "util_percent": 0,
           "state": "free",
