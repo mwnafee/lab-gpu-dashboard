@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-05-30T22:03:31.358048+00:00",
+  "updated_utc": "2026-05-30T22:04:38.918069+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -24,8 +24,8 @@
           "state": "mid",
           "processes": [
             {
-              "pid": "1791674",
-              "user": "nafeem",
+              "pid": "1792050",
+              "user": "unknown",
               "name": "/data/nafeem/miniconda3/envs/openus_run/bin/python",
               "used_mib": 6472
             }
