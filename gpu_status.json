@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-02T17:11:17.320046+00:00",
+  "updated_utc": "2026-06-02T17:12:25.447222+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -48,14 +48,7 @@
           "total_mib": 81559,
           "util_percent": 0,
           "state": "busy",
-          "processes": [
-            {
-              "pid": "3166004",
-              "user": "manikm",
-              "name": "VLLM::EngineCore",
-              "used_mib": 74174
-            }
-          ]
+          "processes": []
         },
         {
           "index": "1",
@@ -75,14 +68,7 @@
           "total_mib": 81559,
           "util_percent": 0,
           "state": "busy",
-          "processes": [
-            {
-              "pid": "3167829",
-              "user": "manikm",
-              "name": "VLLM::Worker_TP0",
-              "used_mib": 78100
-            }
-          ]
+          "processes": []
         },
         {
           "index": "3",
@@ -92,14 +78,7 @@
           "total_mib": 81559,
           "util_percent": 0,
           "state": "busy",
-          "processes": [
-            {
-              "pid": "3167830",
-              "user": "manikm",
-              "name": "VLLM::Worker_TP1",
-              "used_mib": 78098
-            }
-          ]
+          "processes": []
         },
         {
           "index": "4",
@@ -109,14 +88,7 @@
           "total_mib": 81559,
           "util_percent": 0,
           "state": "busy",
-          "processes": [
-            {
-              "pid": "3167831",
-              "user": "manikm",
-              "name": "VLLM::Worker_TP2",
-              "used_mib": 78098
-            }
-          ]
+          "processes": []
         },
         {
           "index": "5",
@@ -126,14 +98,7 @@
           "total_mib": 81559,
           "util_percent": 0,
           "state": "busy",
-          "processes": [
-            {
-              "pid": "3167832",
-              "user": "manikm",
-              "name": "VLLM::Worker_TP3",
-              "used_mib": 78098
-            }
-          ]
+          "processes": []
         },
         {
           "index": "6",
