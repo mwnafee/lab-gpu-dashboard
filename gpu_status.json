@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-04T21:05:28.916801+00:00",
+  "updated_utc": "2026-06-04T21:06:36.872133+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -8,16 +8,16 @@
           "index": "0",
           "uuid": "GPU-5edd8cf7-a71e-4a7f-77be-8a5673dbb2f0",
           "name": "NVIDIA TITAN RTX",
-          "used_mib": 3514,
+          "used_mib": 3516,
           "total_mib": 24576,
-          "util_percent": 85,
+          "util_percent": 90,
           "state": "mid",
           "processes": [
             {
               "pid": "3168836",
               "user": "nafeem",
               "name": "/data/nafeem/miniconda3/envs/openus_run/bin/python",
-              "used_mib": 3510
+              "used_mib": 3512
             }
           ]
         },
