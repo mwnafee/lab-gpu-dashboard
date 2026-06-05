@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-05T05:02:28.692636+00:00",
+  "updated_utc": "2026-06-05T05:03:35.725189+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -10,7 +10,7 @@
           "name": "NVIDIA TITAN RTX",
           "used_mib": 3330,
           "total_mib": 24576,
-          "util_percent": 74,
+          "util_percent": 73,
           "state": "mid",
           "processes": [
             {
