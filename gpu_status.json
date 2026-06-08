@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-08T20:14:54.551586+00:00",
+  "updated_utc": "2026-06-08T20:16:02.286077+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -196,17 +196,24 @@
           "index": "0",
           "uuid": "GPU-1448095e-7137-c882-a1ae-ae3b0f6ebb0a",
           "name": "NVIDIA GeForce GTX 1080 Ti",
-          "used_mib": 3,
+          "used_mib": 2327,
           "total_mib": 11264,
-          "util_percent": 0,
-          "state": "free",
-          "processes": []
+          "util_percent": 95,
+          "state": "mid",
+          "processes": [
+            {
+              "pid": "3923639",
+              "user": "nafeem",
+              "name": "python",
+              "used_mib": 2322
+            }
+          ]
         },
         {
           "index": "1",
           "uuid": "GPU-1c1d2e93-fa30-47e7-14b0-b6b05746f754",
           "name": "NVIDIA GeForce GTX 1080 Ti",
-          "used_mib": 3,
+          "used_mib": 5,
           "total_mib": 11264,
           "util_percent": 0,
           "state": "free",
@@ -216,7 +223,7 @@
           "index": "2",
           "uuid": "GPU-2b51f9f3-f066-b6a3-da4f-c65ea8f463aa",
           "name": "NVIDIA GeForce GTX 1080 Ti",
-          "used_mib": 3,
+          "used_mib": 5,
           "total_mib": 11264,
           "util_percent": 0,
           "state": "free",
@@ -226,7 +233,7 @@
           "index": "3",
           "uuid": "GPU-5e180032-b22f-8cd5-722f-e982dfeff7c4",
           "name": "NVIDIA GeForce GTX 1080 Ti",
-          "used_mib": 3,
+          "used_mib": 5,
           "total_mib": 11264,
           "util_percent": 0,
           "state": "free",
