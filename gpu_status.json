@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-09T14:08:55.674336+00:00",
+  "updated_utc": "2026-06-09T14:10:12.014130+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -20,7 +20,7 @@
           "name": "NVIDIA TITAN RTX",
           "used_mib": 4516,
           "total_mib": 24576,
-          "util_percent": 31,
+          "util_percent": 33,
           "state": "mid",
           "processes": [
             {
@@ -48,7 +48,14 @@
           "total_mib": 81559,
           "util_percent": 0,
           "state": "busy",
-          "processes": []
+          "processes": [
+            {
+              "pid": "3166004",
+              "user": "manikm",
+              "name": "VLLM::EngineCore",
+              "used_mib": 74174
+            }
+          ]
         },
         {
           "index": "1",
@@ -68,7 +75,14 @@
           "total_mib": 81559,
           "util_percent": 0,
           "state": "busy",
-          "processes": []
+          "processes": [
+            {
+              "pid": "3167829",
+              "user": "manikm",
+              "name": "VLLM::Worker_TP0",
+              "used_mib": 78100
+            }
+          ]
         },
         {
           "index": "3",
@@ -78,7 +92,14 @@
           "total_mib": 81559,
           "util_percent": 0,
           "state": "busy",
-          "processes": []
+          "processes": [
+            {
+              "pid": "3167830",
+              "user": "manikm",
+              "name": "VLLM::Worker_TP1",
+              "used_mib": 78098
+            }
+          ]
         },
         {
           "index": "4",
@@ -88,7 +109,14 @@
           "total_mib": 81559,
           "util_percent": 0,
           "state": "busy",
-          "processes": []
+          "processes": [
+            {
+              "pid": "3167831",
+              "user": "manikm",
+              "name": "VLLM::Worker_TP2",
+              "used_mib": 78098
+            }
+          ]
         },
         {
           "index": "5",
@@ -98,7 +126,14 @@
           "total_mib": 81559,
           "util_percent": 0,
           "state": "busy",
-          "processes": []
+          "processes": [
+            {
+              "pid": "3167832",
+              "user": "manikm",
+              "name": "VLLM::Worker_TP3",
+              "used_mib": 78100
+            }
+          ]
         },
         {
           "index": "6",
@@ -190,7 +225,7 @@
           "name": "NVIDIA GeForce GTX 1080 Ti",
           "used_mib": 4167,
           "total_mib": 11264,
-          "util_percent": 98,
+          "util_percent": 51,
           "state": "mid",
           "processes": [
             {
@@ -207,7 +242,7 @@
           "name": "NVIDIA GeForce GTX 1080 Ti",
           "used_mib": 3261,
           "total_mib": 11264,
-          "util_percent": 83,
+          "util_percent": 46,
           "state": "mid",
           "processes": [
             {
