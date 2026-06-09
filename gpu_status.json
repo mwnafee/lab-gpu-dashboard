@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-09T15:28:05.114134+00:00",
+  "updated_utc": "2026-06-09T15:29:13.240941+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -181,11 +181,18 @@
           "index": "1",
           "uuid": "GPU-cbf8c219-f716-c2e7-0fa0-943605bdd357",
           "name": "NVIDIA H100 PCIe",
-          "used_mib": 0,
+          "used_mib": 9771,
           "total_mib": 81559,
           "util_percent": 0,
-          "state": "free",
-          "processes": []
+          "state": "mid",
+          "processes": [
+            {
+              "pid": "359157",
+              "user": "islamm11",
+              "name": "python",
+              "used_mib": 9762
+            }
+          ]
         }
       ]
     },
@@ -218,7 +225,7 @@
           "name": "NVIDIA GeForce GTX 1080 Ti",
           "used_mib": 4167,
           "total_mib": 11264,
-          "util_percent": 51,
+          "util_percent": 40,
           "state": "mid",
           "processes": [
             {
@@ -235,7 +242,7 @@
           "name": "NVIDIA GeForce GTX 1080 Ti",
           "used_mib": 3261,
           "total_mib": 11264,
-          "util_percent": 41,
+          "util_percent": 45,
           "state": "mid",
           "processes": [
             {
