@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-09T17:21:41.095068+00:00",
+  "updated_utc": "2026-06-09T17:22:52.101657+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -20,7 +20,7 @@
           "name": "NVIDIA TITAN RTX",
           "used_mib": 4516,
           "total_mib": 24576,
-          "util_percent": 35,
+          "util_percent": 37,
           "state": "mid",
           "processes": [
             {
@@ -225,7 +225,7 @@
           "name": "NVIDIA GeForce GTX 1080 Ti",
           "used_mib": 4167,
           "total_mib": 11264,
-          "util_percent": 0,
+          "util_percent": 32,
           "state": "mid",
           "processes": [
             {
@@ -240,18 +240,11 @@
           "index": "3",
           "uuid": "GPU-5e180032-b22f-8cd5-722f-e982dfeff7c4",
           "name": "NVIDIA GeForce GTX 1080 Ti",
-          "used_mib": 3261,
+          "used_mib": 5,
           "total_mib": 11264,
           "util_percent": 0,
-          "state": "mid",
-          "processes": [
-            {
-              "pid": "3971694",
-              "user": "nafeem",
-              "name": "/data/nafeem/miniconda3/envs/resshift_softannulus_xf_pip/bin/python",
-              "used_mib": 3256
-            }
-          ]
+          "state": "free",
+          "processes": []
         }
       ]
     }
