@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-09T05:49:16.937471+00:00",
+  "updated_utc": "2026-06-09T05:50:26.269139+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -20,7 +20,7 @@
           "name": "NVIDIA TITAN RTX",
           "used_mib": 4516,
           "total_mib": 24576,
-          "util_percent": 33,
+          "util_percent": 37,
           "state": "mid",
           "processes": [
             {
@@ -73,7 +73,7 @@
           "name": "NVIDIA H100 80GB HBM3",
           "used_mib": 78112,
           "total_mib": 81559,
-          "util_percent": 100,
+          "util_percent": 96,
           "state": "busy",
           "processes": [
             {
@@ -90,7 +90,7 @@
           "name": "NVIDIA H100 80GB HBM3",
           "used_mib": 78110,
           "total_mib": 81559,
-          "util_percent": 100,
+          "util_percent": 96,
           "state": "busy",
           "processes": [
             {
@@ -107,7 +107,7 @@
           "name": "NVIDIA H100 80GB HBM3",
           "used_mib": 78110,
           "total_mib": 81559,
-          "util_percent": 100,
+          "util_percent": 96,
           "state": "busy",
           "processes": [
             {
@@ -183,7 +183,7 @@
           "name": "NVIDIA H100 PCIe",
           "used_mib": 66429,
           "total_mib": 81559,
-          "util_percent": 39,
+          "util_percent": 36,
           "state": "busy",
           "processes": [
             {
@@ -225,7 +225,7 @@
           "name": "NVIDIA GeForce GTX 1080 Ti",
           "used_mib": 4167,
           "total_mib": 11264,
-          "util_percent": 50,
+          "util_percent": 57,
           "state": "mid",
           "processes": [
             {
@@ -242,7 +242,7 @@
           "name": "NVIDIA GeForce GTX 1080 Ti",
           "used_mib": 3261,
           "total_mib": 11264,
-          "util_percent": 75,
+          "util_percent": 92,
           "state": "mid",
           "processes": [
             {
