@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-09T18:07:30.563037+00:00",
+  "updated_utc": "2026-06-09T18:08:41.564732+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -20,7 +20,7 @@
           "name": "NVIDIA TITAN RTX",
           "used_mib": 4516,
           "total_mib": 24576,
-          "util_percent": 36,
+          "util_percent": 34,
           "state": "mid",
           "processes": [
             {
@@ -181,16 +181,16 @@
           "index": "1",
           "uuid": "GPU-cbf8c219-f716-c2e7-0fa0-943605bdd357",
           "name": "NVIDIA H100 PCIe",
-          "used_mib": 4451,
+          "used_mib": 5815,
           "total_mib": 81559,
-          "util_percent": 0,
+          "util_percent": 59,
           "state": "free",
           "processes": [
             {
               "pid": "423894",
               "user": "islamm11",
               "name": "python",
-              "used_mib": 4442
+              "used_mib": 5806
             }
           ]
         }
