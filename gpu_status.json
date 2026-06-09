@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-09T09:16:01.348162+00:00",
+  "updated_utc": "2026-06-09T09:17:19.522948+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -20,7 +20,7 @@
           "name": "NVIDIA TITAN RTX",
           "used_mib": 4516,
           "total_mib": 24576,
-          "util_percent": 31,
+          "util_percent": 34,
           "state": "mid",
           "processes": [
             {
@@ -48,7 +48,14 @@
           "total_mib": 81559,
           "util_percent": 0,
           "state": "busy",
-          "processes": []
+          "processes": [
+            {
+              "pid": "3166004",
+              "user": "manikm",
+              "name": "VLLM::EngineCore",
+              "used_mib": 74174
+            }
+          ]
         },
         {
           "index": "1",
@@ -68,7 +75,14 @@
           "total_mib": 81559,
           "util_percent": 0,
           "state": "busy",
-          "processes": []
+          "processes": [
+            {
+              "pid": "3167829",
+              "user": "manikm",
+              "name": "VLLM::Worker_TP0",
+              "used_mib": 78100
+            }
+          ]
         },
         {
           "index": "3",
@@ -78,7 +92,14 @@
           "total_mib": 81559,
           "util_percent": 0,
           "state": "busy",
-          "processes": []
+          "processes": [
+            {
+              "pid": "3167830",
+              "user": "manikm",
+              "name": "VLLM::Worker_TP1",
+              "used_mib": 78098
+            }
+          ]
         },
         {
           "index": "4",
@@ -88,7 +109,14 @@
           "total_mib": 81559,
           "util_percent": 0,
           "state": "busy",
-          "processes": []
+          "processes": [
+            {
+              "pid": "3167831",
+              "user": "manikm",
+              "name": "VLLM::Worker_TP2",
+              "used_mib": 78098
+            }
+          ]
         },
         {
           "index": "5",
@@ -98,7 +126,14 @@
           "total_mib": 81559,
           "util_percent": 0,
           "state": "busy",
-          "processes": []
+          "processes": [
+            {
+              "pid": "3167832",
+              "user": "manikm",
+              "name": "VLLM::Worker_TP3",
+              "used_mib": 78100
+            }
+          ]
         },
         {
           "index": "6",
@@ -131,7 +166,7 @@
           "name": "NVIDIA H100 PCIe",
           "used_mib": 66429,
           "total_mib": 81559,
-          "util_percent": 35,
+          "util_percent": 36,
           "state": "busy",
           "processes": [
             {
@@ -148,7 +183,7 @@
           "name": "NVIDIA H100 PCIe",
           "used_mib": 66429,
           "total_mib": 81559,
-          "util_percent": 37,
+          "util_percent": 36,
           "state": "busy",
           "processes": [
             {
@@ -190,7 +225,7 @@
           "name": "NVIDIA GeForce GTX 1080 Ti",
           "used_mib": 4167,
           "total_mib": 11264,
-          "util_percent": 49,
+          "util_percent": 57,
           "state": "mid",
           "processes": [
             {
@@ -207,7 +242,7 @@
           "name": "NVIDIA GeForce GTX 1080 Ti",
           "used_mib": 3261,
           "total_mib": 11264,
-          "util_percent": 49,
+          "util_percent": 53,
           "state": "mid",
           "processes": [
             {
