@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-09T15:19:00.163435+00:00",
+  "updated_utc": "2026-06-09T15:20:10.184868+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -218,7 +218,7 @@
           "name": "NVIDIA GeForce GTX 1080 Ti",
           "used_mib": 4167,
           "total_mib": 11264,
-          "util_percent": 75,
+          "util_percent": 49,
           "state": "mid",
           "processes": [
             {
@@ -235,7 +235,7 @@
           "name": "NVIDIA GeForce GTX 1080 Ti",
           "used_mib": 3261,
           "total_mib": 11264,
-          "util_percent": 55,
+          "util_percent": 39,
           "state": "mid",
           "processes": [
             {
