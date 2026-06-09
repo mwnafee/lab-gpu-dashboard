@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-09T01:17:36.339865+00:00",
+  "updated_utc": "2026-06-09T01:18:44.065733+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -159,7 +159,7 @@
           "name": "NVIDIA H100 PCIe",
           "used_mib": 66429,
           "total_mib": 81559,
-          "util_percent": 68,
+          "util_percent": 36,
           "state": "busy",
           "processes": [
             {
@@ -176,7 +176,7 @@
           "name": "NVIDIA H100 PCIe",
           "used_mib": 66429,
           "total_mib": 81559,
-          "util_percent": 55,
+          "util_percent": 35,
           "state": "busy",
           "processes": [
             {
@@ -216,16 +216,16 @@
           "index": "2",
           "uuid": "GPU-2b51f9f3-f066-b6a3-da4f-c65ea8f463aa",
           "name": "NVIDIA GeForce GTX 1080 Ti",
-          "used_mib": 4165,
+          "used_mib": 4167,
           "total_mib": 11264,
-          "util_percent": 50,
+          "util_percent": 55,
           "state": "mid",
           "processes": [
             {
               "pid": "3971693",
               "user": "nafeem",
               "name": "/data/nafeem/miniconda3/envs/resshift_softannulus_xf_pip/bin/python",
-              "used_mib": 4160
+              "used_mib": 4162
             }
           ]
         },
@@ -235,7 +235,7 @@
           "name": "NVIDIA GeForce GTX 1080 Ti",
           "used_mib": 3261,
           "total_mib": 11264,
-          "util_percent": 49,
+          "util_percent": 54,
           "state": "mid",
           "processes": [
             {
