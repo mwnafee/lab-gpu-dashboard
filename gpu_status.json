@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-09T15:33:45.683922+00:00",
+  "updated_utc": "2026-06-09T15:35:01.121172+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -20,9 +20,16 @@
           "name": "NVIDIA TITAN RTX",
           "used_mib": 4516,
           "total_mib": 24576,
-          "util_percent": 34,
+          "util_percent": 36,
           "state": "mid",
-          "processes": []
+          "processes": [
+            {
+              "pid": "4034710",
+              "user": "nafeem",
+              "name": "python",
+              "used_mib": 4512
+            }
+          ]
         }
       ]
     },
@@ -211,7 +218,7 @@
           "name": "NVIDIA GeForce GTX 1080 Ti",
           "used_mib": 4167,
           "total_mib": 11264,
-          "util_percent": 49,
+          "util_percent": 50,
           "state": "mid",
           "processes": [
             {
@@ -228,7 +235,7 @@
           "name": "NVIDIA GeForce GTX 1080 Ti",
           "used_mib": 3261,
           "total_mib": 11264,
-          "util_percent": 69,
+          "util_percent": 41,
           "state": "mid",
           "processes": [
             {
