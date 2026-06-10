@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-10T04:11:01.852295+00:00",
+  "updated_utc": "2026-06-10T04:12:09.834923+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -142,16 +142,16 @@
           "index": "7",
           "uuid": "GPU-c3e858c3-04bb-b607-4d99-98502d0bfef5",
           "name": "NVIDIA H100 80GB HBM3",
-          "used_mib": 4376,
+          "used_mib": 716,
           "total_mib": 81559,
-          "util_percent": 97,
+          "util_percent": 0,
           "state": "free",
           "processes": [
             {
               "pid": "2724309",
               "user": "manikm",
               "name": "python",
-              "used_mib": 4366
+              "used_mib": 706
             }
           ]
         }
@@ -205,7 +205,7 @@
           "name": "NVIDIA GeForce GTX 1080 Ti",
           "used_mib": 1695,
           "total_mib": 11264,
-          "util_percent": 38,
+          "util_percent": 33,
           "state": "mid",
           "processes": [
             {
