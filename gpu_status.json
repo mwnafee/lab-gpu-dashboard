@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-10T20:35:59.447202+00:00",
+  "updated_utc": "2026-06-10T20:37:10.235870+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -182,18 +182,11 @@
           "index": "0",
           "uuid": "GPU-1448095e-7137-c882-a1ae-ae3b0f6ebb0a",
           "name": "NVIDIA GeForce GTX 1080 Ti",
-          "used_mib": 1695,
+          "used_mib": 3,
           "total_mib": 11264,
-          "util_percent": 35,
-          "state": "mid",
-          "processes": [
-            {
-              "pid": "187188",
-              "user": "nafeem",
-              "name": "python",
-              "used_mib": 1690
-            }
-          ]
+          "util_percent": 0,
+          "state": "free",
+          "processes": []
         },
         {
           "index": "1",
