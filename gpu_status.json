@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-10T03:55:03.896011+00:00",
+  "updated_utc": "2026-06-10T03:56:12.242638+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -151,7 +151,7 @@
           "name": "NVIDIA H100 80GB HBM3",
           "used_mib": 2660,
           "total_mib": 81559,
-          "util_percent": 93,
+          "util_percent": 97,
           "state": "free",
           "processes": [
             {
@@ -212,7 +212,7 @@
           "name": "NVIDIA GeForce GTX 1080 Ti",
           "used_mib": 1695,
           "total_mib": 11264,
-          "util_percent": 39,
+          "util_percent": 42,
           "state": "mid",
           "processes": [
             {
