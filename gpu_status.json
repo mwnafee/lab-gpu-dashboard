@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-11T01:58:12.642179+00:00",
+  "updated_utc": "2026-06-11T01:59:19.687831+00:00",
   "servers": {
     "axis0": {
       "status": "ok",
@@ -8,11 +8,18 @@
           "index": "0",
           "uuid": "GPU-5edd8cf7-a71e-4a7f-77be-8a5673dbb2f0",
           "name": "NVIDIA TITAN RTX",
-          "used_mib": 1,
+          "used_mib": 4,
           "total_mib": 24576,
           "util_percent": 0,
           "state": "free",
-          "processes": []
+          "processes": [
+            {
+              "pid": "307250",
+              "user": "nafeem",
+              "name": "python",
+              "used_mib": 548
+            }
+          ]
         },
         {
           "index": "1",
